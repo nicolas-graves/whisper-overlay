@@ -1,0 +1,9 @@
+;; -*- mode: lisp -*-
+(channel
+ (version 0)
+ (url "https://github.com/nicolas-graves/whisper-overlay")
+ (directory ".guix/modules")
+ (dependencies
+  (channel
+   (name nonguix)
+   (url "https://gitlab.com/nonguix/nonguix"))))
